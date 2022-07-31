@@ -1,5 +1,5 @@
 {% set name = "pyntcloud" %}
-{% set version = "0.3.0" %}
+{% set version = "0.3.1" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.io/packages/source/{{ name[0] }}/{{ name }}/{{ name }}-{{ version }}.tar.gz
-  sha256: 8d837dfc4827f55587596365c873ac51ed1742ea1fec686f42dbf77c8b9efc84
+  sha256: 628b45967e1c97a947df0637267197a6b38a36cb04173f9837f05bc3180348b8
 
 build:
   number: 0
